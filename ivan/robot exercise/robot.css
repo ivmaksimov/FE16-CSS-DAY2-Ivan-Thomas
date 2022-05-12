@@ -1,86 +1,88 @@
-
+.container{
+  position: absolute;
+}
 img {
   width: 50px;
 }
 #face {
   width: 600px;
-  position: fixed;
-  left: 50%;
-  top: 20%;
-  transform: translate(-50%);
+  position: relative;
+  left: 75%;
+  top: 0%;
+  /* transform: translate(-50%); */
 }
 #face2 {
   width: 600px;
-  position: fixed;
-  left: 20%;
+  position: relative;
+  left:-18.5%;
   top: 20%;
-  transform: translate(-50%);
+  /* transform: translate(-50%); */
 }
 
 #hair1{
   width: 500px;
-  position: fixed;
-  top: 6em;
+  position: absolute;
+  top: -10%;
   left: 40em;
 }
 #hair2 {
   width: 500px;
-  position: fixed;
-  top: 11em;
-  left: 9em;
+  position: absolute;
+  top: 4em;
+  left: 18em;
 }
 #eyes1{
-  position: fixed;
-  left: 43%;
+  position: absolute;
+  left: 87%;
   top: 40%;
   width: 300px;
 }
 #eyes2 {
-  position: fixed;
-  left: 14%;
+  position: absolute;
+  left: 45%;
   top: 40%;
   width: 300px;
 }
 
 #nose1{
   width: 100px;
-  position: fixed;
-  top: 47%;
-  left: 47% ;
+  position: absolute;
+  top: 50%;
+  left: 95% ;
 }
 #nose2 {
   width: 100px;
-  position: fixed;
+  position: absolute;
   top: 50%;
-  left: 18.5%;
+  left: 54%;
 }
 #mouth2{
   width: 200px;
-    position: fixed;
-    top: 60%;
-    left: 45%;
+    position: absolute;
+    top: 68%;
+    left: 90%;
 }
 #mouth1 {
   width: 200px;
-  position: fixed;
-  top: 60%;
-  left: 16%;
+  position: absolute;
+  top: 65%;
+  left: 49%;
 }
 #ears1{
   width: 600px;
-    position: fixed;
-    top: 25%;
-    left: 37%;
+    position: absolute;
+    top: 20%;
+    left: 74%;
 }
 #ears2 {
   width: 700px;
-  position: fixed;
+  position: absolute;
   top: 40%;
-  left: 5%;
+  left: 28%;
 }
 #hat{
   width: 520px;
-    position: fixed;
-    top: 4%;
-    left: 9%;
+    position: absolute;
+    top: -17%;
+    left: 36%;
 }
