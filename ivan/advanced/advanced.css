@@ -1,6 +1,4 @@
-html {
-  height: 100%;
-}
+
 
 body {
   margin: 0;
@@ -38,7 +36,6 @@ nav {
   list-style-type: none;
   width: 100%;
   font: normal;
-  font-family: Verdana, serif;
   z-index: 1;
 }
 
