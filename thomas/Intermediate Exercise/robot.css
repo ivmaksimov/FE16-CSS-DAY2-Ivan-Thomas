@@ -1,0 +1,34 @@
+
+#face {
+  /* forgot to fix the position of the face first, but works otherwise, dont have time to re do, !fix later!*/
+  width: 20%;
+}
+#eyes{
+  position: fixed;
+  width: 9%;
+  transform: translate(-160%, 210%);
+  
+}
+#mouth{
+  position: fixed;
+  width: 7%;
+  transform: translate(-190%, 312%)
+}
+#nose{
+  position: fixed;
+  width: 4%;
+  height: 10%;
+  transform: translate(-300%, 220%)
+
+}
+#ears{
+  position: fixed;
+  width: 20%;
+  height: 20%;
+  transform: translate(-101%, 67%)
+}
+#hat{
+  position: fixed;
+  width: 14%;
+  transform: translate(-121%, -9%)
+}
